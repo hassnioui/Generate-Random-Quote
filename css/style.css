@@ -88,6 +88,13 @@ ul li:hover{
   background: black;
 }
 
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+  }
+}
 .buttons button{
   border: none;
   color: #fff;
